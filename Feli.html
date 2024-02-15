@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagen de Fondo con Contenido</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Courier New', Courier, monospace, sans-serif;
+            background-image: url('20220213_033404.jpg'); /* Ruta de la imagen de fondo */
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color: white;
+        }
+
+        #animaciones {
+            display: flex;
+            justify-content: space-around;
+            width: 80%;
+            max-width: 800px;
+            margin-top: 20px;
+        }
+
+        #animaciones img {
+            width: 200px;
+            height: auto;
+            animation: animate 2s infinite alternate; /* Ajusta la animación según tu preferencia */
+        }
+
+        @keyframes animate {
+            from { transform: translateY(0); }
+            to { transform: translateY(-10px); }
+        }
+
+        #texto {
+            background-image: url('cuadro.png'); /* Ruta de la imagen PNG de fondo */
+            background-size: cover;
+            padding: 20px;
+            margin-top: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div id="animaciones">
+        <img src="20191229_200554.jpg" alt="Foto 1 con animación">
+        
+    </div>
+
+    <div id="texto">
+        <h2>Feliz Cumple Años</h2>
+        <p>Hola mi corazón pechocho, espero que este día la pases bastante bien 
+            que cumplas muchos más (conmigo claro) y que todas tus metas se cumpla. 
+            Me da cosa que te de esto como regalo a pesar de todo lo que haces
+            por mi y lo que gastas por mi en verdad te lo agradezco mucho. Espero que este 
+            año estemos juntos apesar de todo lo que pase pero yo confió en tu podras salir adelante así como tu 
+            me lo dices a mi! Recuerda que siempre estaré para ti, siempre estaré para escucharte o 
+            si me necesitas siempre estaré para lo que necesites. Perdón por no estar en tus momentos
+            mas bonitos pido perdón, pero ya próximamente nos veremos y estaremos
+            juntos para siempre. 
+        </p>
+    <div id="texto">
+        <p>Se despide tu novio belicon uwu. </p>
+    </div>
+    </div>
+
+    <body>
+        
+        <audio controls autoplay loop>
+            <source src="girl.mp3" type="audio/mpeg">
+            Tu navegador no soporta el elemento de audio.
+        </audio>
+    
+</body>
+</html>
